@@ -9,4 +9,4 @@ Given a list of integers and a number K, return a tuple containing two values: (
 
 ## Example
 - **Input**: ´[1, 2, 3, 4, 5, 6, 9]´, ´3´
-- ++Output+**: (3, 18)
+- **Output+**: (3, 18)
