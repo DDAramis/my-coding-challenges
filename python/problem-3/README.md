@@ -4,7 +4,7 @@
 Given a list of numbers, return a new list containing the squares of only the positive numbers. Ignore zeros and negative numbers.
 
 ## Solution
-- **File**: solution.py
+- **File**: FilterAndSquare.py
 - **Approach**: Iterated through the list, filtered positive numbers using a condition, calculated their squares, and stored results in a new list.
 - **Key Concepts**: Lists, conditionals, iteration, basic arithmetic.
 

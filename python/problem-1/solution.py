@@ -1,12 +1,10 @@
-def reverse_and_filter(words, min_length):
-    reverse_words = []
+def reverse_filter(words, min_length):
+    reverse = []
 
-    for char in words:
-        if len(char) > min_length:
-            reverse_word = char[::-1]
-            reverse_words.append(reverse_word)
-    return reverse_words
+    for word in words:
+        if len(word) > min_length:
+            reverse_word = word[::-1]
+            reverse.append(reverse_word)
+    return reverse
 
-result = reverse_and_filter(["hello", "cat", "World"], 3)
-
-print(result)
+print(reverse_filter(["hello", "cat", "world", "hi"], 3))

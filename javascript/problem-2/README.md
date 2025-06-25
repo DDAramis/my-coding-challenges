@@ -4,7 +4,7 @@
 Given a list of numbers, return a new list where each odd number is doubled, and even numbers are left unchanged.
 
 ## Solution
-- **File**: DoubleOddNumbers2.py
+- **File**: DoubleOddNumbers2.js
 - **Approach**: Iterated through the list, checked if each number is odd using the modulo operator, double odd numbers kept even numbers unchanged, and stored results in a new list.
 - **Key Concepts**: Lists, conditionals, iterantion, basic arithmetic.
 

@@ -1,13 +1,15 @@
-function reverseAndFilter(words, minlength) {
+function reverseAndFilterWord(words, minLength) {
     const result = []
 
     for ( let word of words) {
-        
-        if (word.length > minlength) {
-            const reverseWord = word.split('').reverse().join('')
-            result.push(reverseWord)
+        if (word.length > minLength) {
+            const reverse = word.split('').reverse().join('');
+            result.push(reverse)
         }
     }
     return result
 }
-console.log(reverseAndFilter(['hello', 'cat', 'world', 'hi'], 3));
+
+resultado = reverseAndFilterWord(["hello", "world"], 3);
+
+console.log(resultado)
