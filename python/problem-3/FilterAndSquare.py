@@ -5,6 +5,8 @@ def filter_and_square(numbers):
             square = num ** 2
             result.append(square)
     return result
-result = filter_and_Square([-2, 0, 3, -1, 4, 5])
+
+result = filter_and_square([-2, 0, 3, -1, 4, 5])
+
 print(result)
 
