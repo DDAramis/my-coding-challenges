@@ -6,7 +6,7 @@ function findMissingNumber(numbers) {
     const n = numbers.length + 1; // Aquí, mediante el método length, se calcula la longitud del parámetro 'numbers'. En este caso es 4, ya que [3, 1, 4, 5] = 4, y se suma +1.
 
     const expectedSum = n * (n + 1) / 2; // Aquí lo que hace es calcular la suma esperada de los números del 1 al n (elementos del array).
-    /* En este caso sería lo siguiente: (suma de 1 + 2 + 3 + 4 + 5). Recuerda que el array es: [3, 1, 4, 5], por eso +1 = 5.
+    /* En este caso sería lo siguiente: (suma de 1 + 2 + 3 + 4 + 5) = 15. Recuerda que el array es: [3, 1, 4, 5], por eso +1 = 5.
        ¿Por qué 5? Pues por la variable que inicializamos antes: const n = numbers.length + 1.
     */
 
