@@ -4,7 +4,7 @@
 Given an array of integers, find the length of the longest strictly increasing subsequence (a sequence where each number is greater than the previous one).
 
 ## Solution
-- **File**: solution.js
+- **File**: longest.js
 - **Approach**: Used binary search to maintain an array of the smallest numbers that end increasing subsequences of various lengths, updating it for each number, and returned the array length as the result.
 - **Key Concepts**: Arrays, binary search, iteration, longest increasing subsequence.
 
